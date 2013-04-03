@@ -1,0 +1,1 @@
+var NB = YAHOO.namespace('nb');

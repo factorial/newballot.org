@@ -1,0 +1,63 @@
+#main { width: 580px; }
+h1 {
+    font-family: georgia, times new roman, serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 300%;
+    text-align: center;
+}
+h2 {
+    font-family: georgia, times new roman, serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 250%;
+    color: #c92522;
+}
+
+h3 {
+    font-size: 125%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bluebox h2 { font-size: 300%; text-align: center; }
+
+#connect { text-align: center; }
+#connect a { text-decoration: none; }
+
+.social { padding: 10px 0; font-size: 22px; }
+
+#social_twitter { border-top: solid 2px #ccc; border-bottom: solid 2px #ccc; height: 60px;}
+
+#social_twitter img, #social_fb img { float: left; }
+
+
+.postdate {
+    color: #333;
+    font-weight: bold;
+    font-size: 12px;
+    font-style: normal;
+    font-family: arial, sans-serif;
+}
+
+.blogbox {
+    padding-bottom: 10px;
+    border-bottom: solid 2px #ccc;
+}
+
+.blogbox p, .blogbox ol {
+    margin-bottom: 10px;
+}
+
+.blogbox ol li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-left: 10px;
+}
+.blogbox ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin-left: 10px;
+}
+
+.blogbox a { color: #c92522; }

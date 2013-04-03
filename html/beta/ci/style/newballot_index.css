@@ -1,0 +1,78 @@
+
+#aboutmsg_header {
+    font-family: georgia, times new roman, serif;
+    font-size: 38px;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+}
+
+#billstable {
+    margin-top: 30px;
+}
+
+#billstable td{
+    vertical-align: top;
+    width: 50%;
+    padding: 10px;
+}
+
+#currentLegislation { 
+    margin-top: 30px;
+}
+#currentLegislation h2 {
+    color: #000f66;
+    font-size: 38px;
+    font-style: italic;
+    font-family: georgia, times new roman, serif;
+    font-weight: normal;
+    text-align: center;
+}
+h3.openingtext {
+    color: #666;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+h4.openingtext {
+    color: #666;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+h4.openingtext a {
+    color: #c92522;
+}
+
+.howitworksitem {
+    width: 33%;
+    height: 200px;
+    color: #fff;
+    text-align: center;
+}
+.howitworksitem img { display: block; margin: auto; }
+
+.howitworksDesc {
+    font-weight: bold;
+}
+.howitworksdivider { position: absolute; top: 10px; }
+#howitworks { position:relative; }
+#howitworks1 { width: 170px; margin-left: 20px; }
+#howitworks2 { width: 190px; position:absolute; top:0; left: 285px; }        
+#howitworks3 { width: 190px; position:absolute; top:0; right: 0; margin-right: 20px; }
+#howitworks3 img { margin-right: 60px; }
+#howitworksdivider1 { left: 230px; }
+#howitworksdivider2 { left: 520px; }
+
+
+#districtWarning p {
+    padding: 10px 50px;
+}
+
+#districtWarning img {
+    float: left;
+}
+
+#searchLink {
+    color: #e53d10; text-decoration: underline;
+}

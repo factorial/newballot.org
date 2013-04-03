@@ -1,0 +1,11 @@
+#feedbacksubmit { 
+    display:block;
+}
+
+#feedbacktxt {
+    display:block;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+

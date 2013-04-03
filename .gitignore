@@ -1,0 +1,11 @@
+*.ignore
+conf
+credentials
+logs
+html/www
+html/beta/config/database_settings.inc
+*/config/development
+*/logs/log-*.php
+*/logs/!index.html
+*/cache/*
+*/cache/!index.html

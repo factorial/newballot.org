@@ -1,0 +1,33 @@
+h3 {
+    font-size: 150%;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.notice {
+    font-weight: bold;
+    color: #f00;
+    font-size: 110%;
+}
+
+#addressform label {
+    display: block;
+}
+
+#loadingreps {
+    display: none;
+}
+
+#myvotes {
+    margin-top: 10px; 
+}
+
+#optional, #required {
+    margin-bottom: 10px;
+}
+
+#reps {
+    margin: 10px 0;
+}

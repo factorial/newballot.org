@@ -1,0 +1,44 @@
+h3 {
+    font-size: 200%;
+    font-family: georgia, times new roman, serif;
+    font-weight: normal;
+}
+
+#billComments h2 {
+    text-align: center;
+}
+
+#billComments h3 {
+    text-align: center;
+}
+
+#billSummary {
+    max-height: 500px;
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+#billSummary p {
+    margin-top: 1em;
+}
+
+#commentsNay {
+    width: 50%;
+    margin-left: 50%;
+}
+
+#commentsYea {
+    float: left;
+    width: 50%;
+}
+
+#comments_soon {
+    margin:10px 0;
+    text-align: center;
+}
+
+.votebuttons {
+    width: 75%;
+    background: transparent;
+    margin: auto;
+}

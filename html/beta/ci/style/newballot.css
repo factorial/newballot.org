@@ -1,0 +1,295 @@
+html { 
+    margin: auto; 
+    width: 842px; 
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+a:link { color: #2e5cbd; text-decoration: none; }
+a:visited { color: #2e5cbd; text-decoration: none; }
+a:hover { color: #c92522; text-decoration: underline;}
+a:active { color: #444; text-decoration: none; }
+
+h1 { font-weight: bold; font-size: 200%; }
+h2 { font-weight: bold; font-size: 130%; }
+h3 { font-weight: bold; font-size: 100%; }
+
+strong { font-weight: bold; font-size: 115%; }
+
+body { border-left: solid 1px #aaa; border-right: solid 1px #aaa; border-bottom: solid 1px #aaa; margin-bottom: 10px; }
+
+.redbox_tl { padding: 0; background: #c92522 url(/i/redbox_tl.png) top left no-repeat; margin-bottom: 10px; }
+.redbox_tr { padding: 0; background: transparent url(/i/redbox_tr.png) top right no-repeat; }
+.redbox_bl { padding: 0; background: transparent url(/i/redbox_bl.png) bottom left no-repeat; }
+.redbox { color: #fff; padding: 13px; background: transparent url(/i/redbox_br.png) bottom right no-repeat; }
+
+.redbox a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.redbox h2, .redbox h3, .redbox p {
+    padding-bottom: 10px;
+}
+.redbox h2 {
+    font-size: 250%;
+    font-family: georgia, times new roman, serif;
+    font-style: italic;
+    font-weight: normal;
+    text-align: left;
+    color:#fff;
+}
+
+.bluebox_tl { padding: 0; background: #043352 url(/i/bluebox_tl.png) top left no-repeat; margin-bottom: 10px; }
+.bluebox_tr { padding: 0; background: transparent url(/i/bluebox_tr.png) top right no-repeat; }
+.bluebox_bl { padding: 0; background: transparent url(/i/bluebox_bl.png) bottom left no-repeat; }
+.bluebox { color: #fff; padding: 14px; background: transparent url(/i/bluebox_br.png) bottom right no-repeat; }
+
+.bluebox a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bluebox h2, .bluebox h3, .bluebox p {
+    padding-bottom: 10px;
+}
+
+.bluebox h2 { 
+    font-weight: normal;
+    font-size: 250%;
+    font-family: georgia, times new roman, serif;
+    font-style: italic;
+    text-align: left;
+    color: #fff; 
+}
+
+.bluebox h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.greybox { color: #666; margin-bottom: 10px; padding: 0; background: #f2f2f2 url(/i/greybox_grad.png) bottom left repeat-x; }
+.greybox_tl { padding: 0; background: transparent url(/i/greybox_tl.png) top left no-repeat; }
+.greybox_tr { padding: 0; background: transparent url(/i/greybox_tr.png) top right no-repeat; }
+.greybox_bl { padding: 0; background: transparent url(/i/greybox_bl.png) bottom left no-repeat; }
+.greybox_br { padding: 14px; background: transparent url(/i/greybox_br.png) bottom right no-repeat; }
+
+.greybox a {
+    color: #666;
+    text-decoration: underline;
+}
+
+.greybox h2, .greybox h3, .greybox p {
+    color: #043352;
+    font-family: georgia, times new roman, serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.sidebar {
+    width: 200px;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.smallVoteBox {
+    width: 374px;
+}
+
+.smallVoteBox h3.voteTitle { 
+    color: #fff;
+    background: #000d5e url(/i/smallvotebox_top.png) no-repeat top right; color: #fff;
+    height: 30px; 
+    font-size: 18px;
+    height: 30px;
+    padding: 10px 0 0 10px;
+}
+
+.smallVoteBox h3.voteTitle a { 
+    color: #fff; 
+}
+
+.smallVoteBox a { color: #c92522; }
+
+.voteboxright {
+    position: relative;
+    left: 20px;
+    top: 0;
+}
+
+.naybutton { 
+    position: absolute;
+    right: 0;
+    padding-right: 50px;
+}
+
+
+a.votebutton {
+    text-decoration: none;
+    color: #999;
+    font-size: 300%;
+    margin: 0 5px;
+    font-family: georgia, times new roman, serif;
+    font-style: italic;
+}
+
+a.votebutton:hover { text-decoration: none; }
+a.naybutton:hover { color: #c92522; }
+a.yeabutton:hover { color: #2e5cbd; }
+
+.votebuttons { 
+    position: relative;
+    background: #e4e4e4 url(/i/smallvotebox_bottom.png) no-repeat bottom left;
+    height: 50px;
+}
+
+.voteNayChecked { background: url(/i/ballot_box_redx.png) no-repeat bottom right; }
+.voteNayUnchecked { background: url(/i/ballot_box_empty.png) no-repeat bottom right; }
+
+.voteSummary {
+    background: #f1f1f1 url(/i/smallvotebox_middle_grad.png) repeat-x bottom left;
+    padding: 5px 1em;
+}
+
+.voteSummary p { margin-bottom: 5px; }
+
+.voteSummary h4 { 
+    color: #c92522;
+    font-family: georgia, times new roman, serif;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    font-size: 150%; 
+    margin-right: 5px;
+}
+
+
+.voteSummaryMore {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+.voteYeaChecked { background: url(/i/ballot_box_bluecheck.png) no-repeat bottom left; }
+.voteYeaUnchecked { background: url(/i/ballot_box_empty.png) no-repeat bottom left; }
+
+.yeabutton { padding-left: 50px; }
+
+#body { 
+    padding:20px;
+    margin-top:10px;
+    position: relative;
+}
+
+#bodywrapper {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+#control {
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+#header {
+    position: relative;
+    height: 120px;
+    background: #fff url(/i/header_bottom_grad.png) repeat-x bottom left;
+}
+#header a:hover {
+	text-decoration: none;
+}
+
+#footerwrapper {
+    text-align: center;
+}
+
+#footer_providers {
+    width: 350px;
+    height: 90px;
+    margin: auto;
+}
+
+#footer_providers p {
+    font-weight: bold;
+    color: #333;
+}
+
+#footer_providers a {
+    display: inline-block;
+}
+
+#footer_providers a span {
+    display: none;
+}
+
+#footer_opencongress {
+    width: 191px;
+    height: 83px;
+    background: url(/i/opencongress_logo.png) no-repeat top left;
+}
+#footer_govtrack {
+    width: 136px;
+    height: 83px;
+    background: url(/i/govtrack_logo.png) no-repeat top left; 
+}
+
+
+#logo {
+    margin-left: 20px;
+}
+#logo h1 {
+	color: #043352;
+	font: bold 62px Georgia, serif;
+}
+#logo h1 span.first {
+	color: #c92522;
+}
+
+#navDiv {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px; 
+}
+
+#navDiv ul li { margin-left: 5px; display:inline-block; background: url(/i/header_tab_red_left.png) no-repeat bottom left; height: 41px; padding-left: 10px; text-align: center; font-weight: bold; font-size: 18px; line-height: 48px; }
+#navDiv ul li.currentlink { background: url(/i/header_tab_white_left.png) no-repeat bottom left; }
+
+#navDiv ul li a { display: block; height: 100%; background: url(/i/header_tab_red_right.png) no-repeat bottom right; padding-right: 10px;}
+#navDiv ul li.currentlink a { color: #c11428; background: url(/i/header_tab_white_right.png) no-repeat bottom right; }
+
+#navDiv ul li a:hover { text-decoration: none; }
+
+#navDiv ul li a span { display: block;  height: 100%; background: url(/i/header_tab_red_middle.png) repeat-x bottom left; color: #fff;text-align: center; padding: 0 5px; }
+#navDiv ul li.currentlink a span { background: url(/i/header_tab_white_middle.png) repeat-x bottom left; color: #c11428; }
+
+#search  {margin-right: 10px; }
+#searchlink_login, #searchlink_logout { border-right: 2px solid #666; }
+#search a { padding: 0 5px; color: #666; font-weight: bold; }
+
+#search form { display: inline; }
+
+#searchBox {
+    border: solid 1px #000;
+    background: url(/i/search_16x16.gif) top left no-repeat;
+    padding-left: 18px;
+    width: 100px;
+}
+
+h2#slogan {
+    font-size: 100%;
+    margin-left: 60px;
+    font-family: georgia, times new roman, serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #333;
+}
+
