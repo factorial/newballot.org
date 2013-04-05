@@ -1,4 +1,4 @@
-#newballot.org
+# newballot.org
 
 Behold the code for http://www.newballot.org. 
 It's a [Code Igniter][1] site (for now), based on what is probably a pretty
